@@ -18,6 +18,6 @@ public static void main(String[] args) {
 	WebElement homeAndFurniture= driver.findElement(By.xpath("//span[text()='Home & Furniture']"));
 	Actions act=new Actions(driver);
 	act.moveToElement(homeAndFurniture).perform();
-	
+
 }
 }

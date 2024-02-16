@@ -21,5 +21,6 @@ public class isDisplayed {
 	
 	boolean result = lgn.isDisplayed();
 	System.out.println(result);
+	
 }
 }
