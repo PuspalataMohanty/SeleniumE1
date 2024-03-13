@@ -14,7 +14,6 @@ public static void main(String[] args) throws InterruptedException {
     driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));//to provide implicit wait
 	driver.get("https://omayo.blogspot.com/");//to launch the application
-	
 	driver.findElement(By.id("confirm")).click();//to generate popup
 	Thread.sleep(2000);
 	

@@ -27,8 +27,7 @@ public class ToHandleHiddenDivisionPopup {
 	
 	    driver.findElement(By.xpath("//div[text()='March 2024']/ancestor::div[@class='DayPicker-Month']/descendant::p[text()='28']")).click();
 		
-		Thread.sleep(2000);
-		driver.close();
+		Thread.sleep(2000); 
 	}
 
 }
