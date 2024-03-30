@@ -15,7 +15,7 @@ WebDriver driver=new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	driver.get("http://puspa/login.do");
 	//to find username textbox and store in a variable
-	WebElement usnTb = driver.findElement(By.name("username"));
+	WebElement usnTb = driver.findElement(By.name("pwd"));
 	
 	String attributeValue = usnTb.getAttribute("type");
 	System.out.println(attributeValue);

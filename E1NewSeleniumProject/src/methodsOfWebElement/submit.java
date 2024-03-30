@@ -20,6 +20,6 @@ public static void main(String[] args) {
 	WebElement login = driver.findElement(By.xpath("//div[text()='Log in']"));
 	login.submit();
 	
-	
+	 
 }
 }

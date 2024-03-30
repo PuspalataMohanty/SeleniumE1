@@ -16,7 +16,6 @@ public static void main(String[] args) throws InterruptedException {
 	Thread.sleep(1000);
 	for(int i=2;i<=4;i++) {
 		s.selectByIndex(i);
-	
 	}
 	WebElement firstOption = s.getFirstSelectedOption();
 	System.out.println(firstOption.getText() );

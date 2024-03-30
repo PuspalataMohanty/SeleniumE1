@@ -17,6 +17,5 @@ public static void main(String[] args) throws InterruptedException {
 		Thread.sleep(1000);
 		boolean res = s.isMultiple();
 		System.out.println(res);
-		
 }
 }

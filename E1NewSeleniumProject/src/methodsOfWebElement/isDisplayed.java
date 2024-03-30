@@ -20,7 +20,6 @@ public class isDisplayed {
 	WebElement lgn = driver.findElement(By.xpath(("//div[text()='Log in']")));
 	
 	boolean result = lgn.isDisplayed();
-	System.out.println(result);
-	
+	System.out.println(result);	
 }
 }
